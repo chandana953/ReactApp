@@ -18,7 +18,6 @@ function App() {
     <Header/>
     <Todoinput addTodo={handleAddTodo}/>
     <Todolist todos={todos} deleteTodo={handleDeleteTodo}/>
-    
     </>
   )
 }
